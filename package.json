@@ -7,7 +7,12 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "build-dev": "ng build --configuration=dev",
+    "build-staging": "ng build --configuration=staging",
+    "build-prod": "ng build --configuration=prod",
+    "updateBuild": "node ./replace.build.js",
+    "postinstall": "ngcc"
   },
   "private": true,
   "dependencies": {
