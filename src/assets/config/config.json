@@ -1,0 +1,6 @@
+{
+  "production": false,
+  "name": "test",
+  "landingPath": "/login",
+  "redirectPath": "/app"
+}

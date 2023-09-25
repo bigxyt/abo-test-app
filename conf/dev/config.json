@@ -1,0 +1,23 @@
+{
+  "production": false,
+  "environment": "dev",
+  "name": "bigos",
+  "secretKey": "3FwmiL85B1",
+  "recaptchaKey": "6LdatFMaAAAAANjP2QyJnANXTyI8_AEl73ZJvmy6",
+  "authServiceUrl": "/v2/auth",
+  "guardServiceUrl": "/v2/guard",
+  "cockpitServiceUrl": "/v2/cockpit",
+  "bigosServiceUrl": "/v2/bigos",
+  "airflowServiceUrl": "/v2/bigos/airflow",
+  "loginAuthorities": [
+    "bigos."
+  ],
+  "organizationConfigIds": [
+    "bigosGrafanaDashboards"
+  ],
+  "passwordChangeUrl": "https://bigos.dev.bigxyt.com/password/change?token=",
+  "landingPath": "/login",
+  "redirectPath": "/app",
+  "iconStyle": "regular",
+  "version": "{BUILD_VERSION}"
+}
