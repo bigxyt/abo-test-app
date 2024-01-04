@@ -33,8 +33,6 @@ pipeline {
               sh "npm run ${params.buildVersion}"
 
               sh "node ./replace.build.js ${params.buildVersion} ${params.uiVersion}"
-
-              sh "cd dist && zip -r ${params.uiVersion}.zip *"
             }
           }
         }
